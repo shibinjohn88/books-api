@@ -22,7 +22,7 @@ app.listen(80, function () {
 
 //Index
 app.get ('/', (req, res) => {
-    res.send('Welcome to Books Api!')
+    res.send('Hello world')
 })
 
 //Books
